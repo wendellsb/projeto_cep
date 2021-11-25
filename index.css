@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    font-style: inherit;
+    font-weight: bold;
     color: white;
     text-align: center;
 }
@@ -15,8 +15,8 @@ section {
     margin: auto;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style:inherit;
-    font-size: medium;
+    font-weight: bold;
+    padding-left: 20px;
     
 }
 #botao {
@@ -24,4 +24,10 @@ section {
 }
 #res {
     text-align: center;
+}
+#log {
+    text-align: justify;
+    line-height: 30px;
+    font-size: 13pt;
+    font-weight: bold;
 }
