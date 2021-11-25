@@ -1,0 +1,27 @@
+body {
+    background: url(foto.jpg);
+}
+
+header {
+    font-style: inherit;
+    color: white;
+    text-align: center;
+}
+section {
+    
+    background-color:white;
+    width: 350px;
+    padding: 1px;
+    margin: auto;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:inherit;
+    font-size: medium;
+    
+}
+#botao {
+    text-align: center;
+}
+#res {
+    text-align: center;
+}
