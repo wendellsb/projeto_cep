@@ -1,10 +1,12 @@
 body {
     background: url(foto.jpg);
+    background-size: cover;
+
 }
 
 header {
     font-weight: bold;
-    color: white;
+    color: rgb(5, 5, 5);
     text-align: center;
 }
 section {
@@ -15,15 +17,18 @@ section {
     margin: auto;
     border-radius: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
     padding-left: 20px;
     
+}
+#imp {
+    font-weight: bold;
 }
 #botao {
     text-align: center;
 }
 #res {
     text-align: center;
+        font-weight: bold;
 }
 #log {
     text-align: justify;
