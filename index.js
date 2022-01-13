@@ -22,10 +22,10 @@ function verificar() {
             resposta.innerHTML = `${nome.value}`
             endereco.innerHTML = 
             'Cep: ' + response.cep + '<br>' + 
-            'Estado:' + response.uf + '<br>' +
-            'Cidade:' + response.localidade + '<br>' +
-            'Bairro' + response.bairro + '<br>' +
-            'Rua:' + response.logradouro
+            'Estado: ' + response.uf + '<br>' +
+            'Cidade: ' + response.localidade + '<br>' +
+            'Bairro: ' + response.bairro + '<br>' +
+            'Rua: ' + response.logradouro
         }
     }
     request.send()
