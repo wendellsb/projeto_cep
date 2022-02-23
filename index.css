@@ -1,34 +1,33 @@
-body {
-    background: url(foto.jpg);
-    background-size: cover;
+body{
+
+     background-image: url("foto.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
 
 }
 
 header {
     font-weight: bold;
-    color: rgb(5, 5, 5);
     text-align: center;
 }
 section {
-    
-    background-color:white;
+    background-color:rgb(226, 227, 228);
     width: 350px;
-    padding: 1px;
-    margin: auto;
-    border-radius: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 20px;
-    
+    padding: 10px;
+    margin: auto; 
+    border-radius: 10px;
+    padding-left: 15px;
 }
-#imp {
-    font-weight: bold;
-}
+
 #botao {
     text-align: center;
+    color: black;
+    width: 20rem;
 }
 #res {
     text-align: center;
-        font-weight: bold;
+    font-weight: bold;
+    padding-top: 10px;
 }
 #log {
     text-align: justify;
