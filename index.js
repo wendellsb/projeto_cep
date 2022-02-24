@@ -30,3 +30,10 @@ function verificar() {
     }
     request.send()
 }
+
+function limpar() {
+    document.getElementById('pessoa').value='';
+    document.getElementById('idade').value='';
+    document.getElementById('cep').value='';
+    document.location.reload(true);
+}
