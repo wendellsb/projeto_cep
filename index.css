@@ -1,17 +1,21 @@
-body{
-
-     background-image: url("foto.jpg");
-     background-size: cover;
-     background-repeat: no-repeat;
-
+body {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("foto.jpg");
 }
+
+
 
 #cabecalho {
     font-weight: bold;
     text-align: center;
     color: aliceblue;
     background-color: rgb(48, 46, 46);
-    margin: 0%;
+    margin: 0;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -21,8 +25,6 @@ body{
     color: black;
     transition: 1s;
 }
-
-
 
 section {
     background-color:rgb(226, 227, 228);
@@ -132,7 +134,7 @@ section p {
     }  
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 385px) {
  
     #cabecalho {
         color: aliceblue;
@@ -147,8 +149,8 @@ section p {
 
     section {
         padding-top: 50px;
-        width: 90%;
-        height: 78vh;
+        width: 90vw;
+        height: 90vh;
         margin-bottom: 250px;
     }  
 }

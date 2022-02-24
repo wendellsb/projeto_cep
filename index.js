@@ -17,7 +17,7 @@ function verificar() {
         if(response.erro === true) {
             resposta.innerHTML = "CEP NÃO ENCONTRADO"
         } else if(idade.value < 18 || idade.value > 120) {
-            resposta.innerHTML = `${nome.value} sua idade está invalidade.`
+            resposta.innerHTML = `${nome.value} sua idade está inválida, somente acima de 18.`
         } else {
             resposta.innerHTML = `${nome.value}`
             endereco.innerHTML = 
