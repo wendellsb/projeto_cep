@@ -7,18 +7,25 @@ Este sistema solicita ao usuário o CEP e retorna Estado, Cidade e Rua que o usu
 
 Informações adicionais: 
 Só poderá fazer a consulta usuários acima de 18 anos.
-
 O CEP deverá conter 8 digitos.
 
                               ***********************************************
                               *               Primeira tela                 *
                               ***********************************************
         
-![primeira_tela](https://user-images.githubusercontent.com/88899145/143720024-04ace9c0-3305-47ca-963c-349eb978435a.png)
+![foto1](https://user-images.githubusercontent.com/88899145/155567918-c847e67e-d5e8-477d-8454-61683d1b5726.png)
+
 
 
                               ***********************************************
                               *               Segunda tela                 *
                               ***********************************************
         
-![segunda_tela](https://user-images.githubusercontent.com/88899145/143720041-54b547c4-b8e8-413b-9379-46e994b2d1f8.png)
+![foto2](https://user-images.githubusercontent.com/88899145/155567940-76341552-b3d5-4250-b5b6-f7ccf88fbb2f.png)
+
+
+                              ***********************************************
+                              *               Tela Mobile                 *
+                              ***********************************************
+                              
+![foto3](https://user-images.githubusercontent.com/88899145/155568080-eef7a8a0-1274-4cb5-9ca0-0e36472ef880.png)
