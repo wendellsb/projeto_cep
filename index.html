@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset='UTF-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Formulário</title>
+    <title>Busca CEP</title>
     <link rel='stylesheet' href="index.css">
     <script src="index.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -11,19 +10,45 @@
 </head>
 <body>
     
-    <h2><header class="bg-primary pt-2 pb-2">Busca de Endereço</header></h2>
-    <section class="border border-2 border-dark">
-            <p><label for="pessoa" class="form-label">Nome:</label>
-            <input type="text" id="pessoa" name="nome" placeholder="INFORME SEU NOME COMPLETO" maxlength="30" size="30" required /></p>
-            
-            <p><label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" placeholder="INFORME IDADE" required /></p>
-            <p><label for="cep">Cep:</label>
+    <h2><header class="bg-primary text-white pt-2 pb-2">Busca de Endereço</header></h2>
+    <section class="border border-2 border-dark  mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p><label for="pessoa" >Nome</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="pessoa" name="nome" placeholder="Nome Completo" maxlength="30" size="26" required /></p>
+                    </div>
+                </div>
 
-            <input type="text" id="cep" name="cep" size='15' maxlength="8" placeholder="8 NÚMEROS" required /></p>
-            
-            <input type= "button" value="Consultar" class="btn btn-outline-primary border-2"  id="botao" onclick="verificar()">
-        </div>
+                <div class="row">
+                    <div class="col">
+                        <p><label for="idade">Idade</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="idade" name="idade" size="26" placeholder="Informe Idade" required /></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p><label for="cep">Cep</label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="cep" name="cep" size='26' maxlength="8" placeholder="8 Números" required /></p>
+                    </div>
+                </div>                
+               
+                <div class="row">
+                    <div class="col">
+                        <input type= "button" value="Limpar" class="btn btn-outline-warning border-2"  id="botao" onclick="verificar()">
+                    </div>
+                    <div class="col">
+                        <input type= "button" value="Consultar" class="btn btn-outline-primary border-2"  id="botao" onclick="verificar()">
+                    </div>
+                </div>
+            </div>
 
         <div id="res">
             <p>Preencha os dados acima para saber seu Endereço!</p>

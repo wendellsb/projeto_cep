@@ -22,7 +22,7 @@ section {
 #botao {
     text-align: center;
     color: black;
-    width: 20rem;
+    width: 8rem;
 }
 #res {
     text-align: center;
@@ -34,4 +34,11 @@ section {
     line-height: 30px;
     font-size: 13pt;
     font-weight: bold;
+}
+
+#idade, #pessoa, #cep {
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    
 }
